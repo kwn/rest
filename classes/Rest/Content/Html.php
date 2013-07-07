@@ -8,6 +8,7 @@
  * @copyright  (c) 2012 Jeremy Fowler
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
- interface REST_Content_HTML extends REST_Controller {
-	public function action_html();
- }
+interface Rest_Content_Html extends Rest_Controller
+{
+    public function action_html();
+}

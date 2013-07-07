@@ -9,6 +9,7 @@
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
 
-interface REST_Method_Trace extends REST_Model {
-	public function rest_trace(Rest $rest);
+interface Rest_Method_Trace extends Rest_Model
+{
+    public function rest_trace(Rest $rest);
 }

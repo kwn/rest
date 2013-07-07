@@ -9,6 +9,7 @@
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
 
-interface REST_Method_Patch extends REST_Model {
-	public function rest_patch(Rest $rest);
+interface Rest_Method_Patch extends Rest_Model
+{
+    public function rest_patch(Rest $rest);
 }

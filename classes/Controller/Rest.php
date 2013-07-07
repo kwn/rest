@@ -8,4 +8,4 @@
  * @copyright  (c) 2012 Jeremy Fowler
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
-class Controller_REST extends Controller_Template_REST {}
+class Controller_Rest extends Controller_Template_Rest {}

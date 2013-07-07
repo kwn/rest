@@ -9,8 +9,4 @@
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
 
-interface REST_Method_Basic
-	extends REST_Method_Get,
-		REST_Method_Put,
-		REST_Method_Post,
-		REST_Method_Delete {}
+interface Rest_Method_Basic extends Rest_Method_Get, Rest_Method_Put, Rest_Method_Post, Rest_Method_Delete {}

@@ -9,6 +9,7 @@
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
 
-interface REST_AUTH extends REST_Model {
-	public function rest_auth(Rest $rest);
+interface Rest_Auth extends Rest_Model
+{
+    public function rest_auth(Rest $rest);
 }

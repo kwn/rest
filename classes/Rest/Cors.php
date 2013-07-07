@@ -9,6 +9,7 @@
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
 
-interface REST_CORS extends REST_Method_Options {
-	public function rest_cors(Rest $rest);
+interface Rest_Cors extends Rest_Method_Options
+{
+    public function rest_cors(Rest $rest);
 }

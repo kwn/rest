@@ -8,6 +8,7 @@
  * @copyright  (c) 2012 Jeremy Fowler
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
- interface REST_Content_ATOM extends REST_Controller {
-	public function action_atom();
- }
+interface Rest_Content_Atom extends Rest_Controller
+{
+    public function action_atom();
+}

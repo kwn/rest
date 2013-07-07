@@ -8,6 +8,7 @@
  * @copyright  (c) 2012 Jeremy Fowler
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
- interface REST_Content_XML extends REST_Controller {
-	public function action_xml();
- }
+interface Rest_Content_Xml extends Rest_Controller
+{
+    public function action_xml();
+}

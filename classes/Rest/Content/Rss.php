@@ -8,6 +8,7 @@
  * @copyright  (c) 2012 Jeremy Fowler
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
- interface REST_Content_RSS extends REST_Controller {
-	public function action_rss();
- }
+interface Rest_Content_Rss extends REST_Controller
+{
+    public function action_rss();
+}

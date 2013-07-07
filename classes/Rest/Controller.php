@@ -9,4 +9,4 @@
  * @license    http://www.opensource.org/licenses/BSD-3-Clause
  */
 
-interface REST_Controller {}
+interface Rest_Controller {}

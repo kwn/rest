@@ -4,7 +4,7 @@
 * License:    http://www.opensource.org/licenses/BSD-3-Clause
 
 ##Requires
-* Kohana >= 3.2
+* Kohana >= 3.3
 * PHP >= 5.3
 
 ##Features

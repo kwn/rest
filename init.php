@@ -10,7 +10,8 @@
  */
 
 // Basic catch-all route for REST controller, action == model
-Route::set('rest', 'rest/<action>((/<id>)(.<content_type>))')
-	->defaults(array(
-		'controller' => 'rest'
-	));
+Route::set('rest', 'rest/<action>(/<id>)(.<content_type>)')
+->defaults(array(
+    'controller'   => 'rest',
+    'content_type' => 'json'
+));
